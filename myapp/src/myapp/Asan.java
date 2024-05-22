@@ -2,8 +2,14 @@ package myapp;
 
 public class Asan {
 
-	public static int add(int a , int b) {
-		int c = a +b ;
-		return  c;
+	public static void add(int n) {
+		
+		if( n == 1) {
+			System.out.println(1);
+		}
+		else {
+			System.out.println(n);
+			add(n-1);
+		}
 	}
 }
