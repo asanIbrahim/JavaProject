@@ -3,11 +3,14 @@ package myapp;
 public class Main {
 	String employeeName  = "";
 	int age;
+	String address = "";
 	public static void main(String[] args) {
-	Main address = new Main();
+	Main customer = new Main();
 	
-	address.employeeName = "Asan";
 	
-	System.out.println(address.employeeName);
+	customer.employeeName = "Asan";
+	customer.address = "plot 26, Govarthan Garder";
+	
+	System.out.println(customer.employeeName);
 }
 }
