@@ -12,4 +12,8 @@ public class Asan {
 			add(n-1);
 		}
 	}
+	
+	public static void addNumber(int val) {
+		
+	}
 }
