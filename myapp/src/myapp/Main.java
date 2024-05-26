@@ -1,16 +1,14 @@
 package myapp;
 
 public class Main {
-	String employeeName  = "";
-	int age;
-	String address = "";
+	 static String employeeName  = "Welcome to Onward";
+	static  String address = "";
 	public static void main(String[] args) {
-	Main customer = new Main();
-	System.out.println(Asan.add(12,18));
-	customer.employeeName = "Asan";
-	customer.address = "plot 26, Govarthan Garder";
 	
-	System.out.println(customer.employeeName);
-	
+      for(int i = employeeName.length()-1 ; i >= 0 ; i --) {
+    	  address += employeeName.charAt(i);
+      }
+	System.out.println(address);
 }
+	
 }
