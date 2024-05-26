@@ -10,10 +10,26 @@ public class Main {
 	Asan.addNumber();
 	ReverseString result = new ReverseString();
 	ReverseString.displayres();
+
+	int n = 5 ;
 	
+	String star = "";
+	
+	for(int i = 1 ; i<= n ; i++) {
+	  for(int j = 1 ; j<= n-i; j++) {
+		  star += " ";
+	  }
+	  for(int k = 0 ; k < 2* i -1 ; k++) {
+		  star +="*";
+	  }
+	   
+	  star+= "\n";
+	}
+	
+	System.out.print(star);
 	
 	
 
-	
-}
+	}	
+
 }
